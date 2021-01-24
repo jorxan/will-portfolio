@@ -1,0 +1,51 @@
+.project__wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 50px 0;
+}
+
+.project__img > img {
+    max-width: 90%;
+}
+
+.project__description {
+    padding-left: 50px;
+    position: relative;
+}
+
+.project__title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.project__type {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.project__link {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 40px;
+}
+
+.fa-chevron-right {
+    padding-left: 10px;
+    transform: translateY(6px);
+}
+
+.soul__blue {
+    color: #4c92ff;
+}
+
+.street__orange {
+    color: #ff9154;
+}
+
+.room__purple {
+    color: #c583d8;
+}
+
+.project__link:hover {
+    cursor: pointer;
+}

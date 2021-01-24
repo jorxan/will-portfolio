@@ -1,0 +1,8 @@
+.projects__container {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects__container > h1 {
+    font-size: 45px;
+}

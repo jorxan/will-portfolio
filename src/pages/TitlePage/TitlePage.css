@@ -1,0 +1,37 @@
+.title__wrapper {
+    width: 100%;
+}
+
+.title {
+    padding: 17% 0;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+font-size: 35px;
+}
+
+.subText {
+    font-size: 25px;
+}
+
+#product {
+    color: #c038cb;
+}
+
+#slash {
+    color: #447ace;
+}
+
+#ux {
+    color: #3bc29b;
+}
+
+#end {
+    color: #447ace;
+}
+
+#phx {
+    color: #fc7575;
+}
