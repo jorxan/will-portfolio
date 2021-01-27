@@ -20,6 +20,7 @@ import GardenGate from '../../images/IMG_5921.png';
 import PopFood from '../../images/IMG_5840.png';
 import Caravan from '../../images/IMG_5926.png';
 import WillFilter from '../../images/IMG_5963.png';
+import V1 from '../../images/Capture3 1.png';
 
 
 function Soul() {
@@ -39,7 +40,6 @@ function Soul() {
                 </div>
             <div className="summary">
                 <div className="summary__left">
-                    {/* Will Should rewrite this */}
                     <p>
                         Adobe, Disney, and Pixar hosted a   design challenge to create an Album Cover for the new movie 
                         <span> Soul. </span>
@@ -70,7 +70,6 @@ function Soul() {
             <div className="problem__wrapper">
                 <div className="problem">
                     <h3>Problem</h3>
-                    {/* will should rewrite this */}
                     <p1>
                         I had no idea this challenge existed up until about a week before it was due. A problem I had no control over, but that's life.
                     </p1>
@@ -100,83 +99,105 @@ function Soul() {
                 <h3>Mood Board</h3>
             </div>
             <div className="moodBoard__wrapper">
-                <div className="grid1">
-                    <div className="col1g1">
-                        <div>
-                            <img src={Squidward} alt=""/>
-                        </div>
-                        <div>
-                            <img src={BlueTrumpet} alt=""/>
-                        </div>
+                <div>
+                    <div>
+                        <img src={Squidward} alt=""/>
                     </div>
-                    <div className="col2g1">
-                        <div>
-                            <img src={BlueNote} alt=""/>
-                        </div>
-                        <div>
-                            <img src={ColorGuys} alt=""/>
-                        </div>
+                    <div>
+                        <img src={ColorGuys} alt=""/>
                     </div>
-                    <div className="col3g1">
-                        <div>
-                            <img src={SaxGuy} alt=""/>
-                        </div>
-                        <div>
-                            <img src={JazzAndArt} alt=""/>
-                        </div>
+                    <div>
+                        <img src={Caravan} alt=""/>
                     </div>
                 </div>
-                <div className="grid2">
-                    <div className="grid2L">
-                        <div className="grid2__row1">
-                            <div>
-                                <img src={Bongos} alt=""/>
-                            </div>
-                            <div>
-                                <img src={JazzInDaHouse} alt=""/>
-                            </div>
-                        </div>
-                        <div className="grid2__row2">
-                            <div>
-                                <img src={PopFood} alt=""/>
-                            </div>
-                            <div>
-                                <img src={Dots} alt=""/>
-                            </div>
-                        </div>
+                <div>
+                    <div>
+                        <img src={BlueNote} alt=""/>
                     </div>
-                    <div className="grid2R">
-                        <div>
-                            <img src={Vertigo} alt=""/>
-                        </div>
+                    <div>
+                        <img src={SaxGuy} alt=""/>
+                    </div>
+                    <div>
+                        <img src={John} alt=""/>
                     </div>
                 </div>
-                <div className="grid3">
-                    <div className="grid3L">
-                        <div>
-                            <img src={AzzJa} alt=""/>
+                <div>
+                    <div>
+                        <img src={Vertigo} alt=""/>
+                    </div>
+                    <div>
+                        <img src={AzzJa} alt=""/>
+                    </div>
+                    
+                </div>
+            </div>
+            <div className="design__wrapper">
+                <div className="design__wrapperHeader">
+                    <div>
+                        <div className="designTitle">
+                            Design
+                        </div>
+                        <div className="designSubTitle">
+                            Brainstorming
                         </div>
                     </div>
-                    <div className="grid3R">
-                        <div className="grid3__row1">
-                            <div>
-                                <img src={John} alt=""/>
-                            </div>
-                            <div>
-                                <img src={GardenGate} alt=""/>
-                            </div>
-                        </div>
-                        <div className="grid3__row2">
-                            <div>
-                                <img src={Caravan} alt=""/>
-                            </div>
-                            <div>
-                                <img src={WillFilter} alt=""/>
-                            </div>
-                        </div>
+                    <div>
+                        <p>
+                            After watching the movie 4 times I just started scrubbing through to the "main" parts, which I learned was the  complete opposite point of the movie. As you reach the climax of the film Joe is realizing that it's all the "little things" that he was looking past that was what he loved about life.
+                            <br/>
+                            So I decided to watch the film again, but through a new lens.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div className="design__images">
+
+                </div>
+                <div className="design__challenges">
+                    <div className="challenges__header">
+                        <h1>
+                            Challenges
+                        </h1>
+                    </div>
+                    <div>
+                        <p>
+                            The more time I spent on the project more and more ideas kept coming up. Usually, idea synthesis is a good thing, but when you're already 3 weeks behind the competition it is all or nothing. If I liked a new idae more, it had to be good enough to justify leaving behind all the work preceding it.
+                        </p>
+                    </div>
+                </div>
+                <div className="design__iterations">
+                    <div className="iterations__header">
+                        <h1>
+                            Iterations + <br/>
+                            Prototypes
+                        </h1>
+                    </div>
+                    <div>
+                        <p>
+                            What started with a couple ideas, eventually became a dozen or more that I wanted to explore further. Even with one week to work, I managed to go in depth in 3 seperate styles, before committing to my final design. It did cause unnecessary challenges, but made for a better product overall.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Versions */}
+                <div className="v1">
+                    <div>
+                        <h1>
+                            V1
+                        </h1>
+                    </div>
+                    <div className="v1__list">
+                        <ul>
+                            <li>Wanted to play around with an open-faced cover that was interactive with the art</li>
+                            <li>A spotlight for each important musical character and their instruments</li>
+                        </ul>
+                    </div>
+                    <div className="v1__image">
+                        <img src={V1} alt=""/>
                     </div>
                 </div>
             </div>
+
             </div>
         </div>
     )
