@@ -80,21 +80,21 @@ function Soul() {
                     </p1>
                     <br/>
                     <p2>
-                        So it tooka lot of long nights, and using any free time I had to research and brainstorm.
+                        So it took a lot of long nights, and using any free time I had to research and brainstorm.
                     </p2>
                 </div>
                 <div className="research">
                     <h3>Research</h3>
-                    <p1>Never having deesigned jazz art before, I had to do a lot of research. Which meant a lot of listening to music, looking at album art, and watching <span> Soul</span> on repeat.
+                    <p1>Never having designed jazz art before, I had to do a lot of research. Which meant a lot of listening to music, looking at album art, and watching <span> Soul</span> on repeat.
                     </p1>
                     <br/>
                     <p2>
-                        I wanted to focus on a few main areas: Color, shapes, and typography.
+                        I wanted to focus on a few main areas: color, shapes, and typography.
                     </p2>
                     <br/>
                     <p3>
                         <span>Monsters Inc. </span>
-                        had a strong jazz influence with its musical score and artwork, and it was Pixar's, so naturally I went there first. I filtered through hundreds of album covers and posters, with an emphasis on jazz, but not exclusively. Since this was my first time creating album art I had to keep y mind open to all forms.
+                        had a strong jazz influence with its musical score and artwork, and it was Pixar's, so naturally I went there first. I filtered through hundreds of album covers and posters, with an emphasis on jazz, but not exclusively. Since this was my first time creating album art I had to keep my mind open to all forms.
                         <br/>
                         <a href="https://www.artofthetitle.com/title/monsters-inc/" target="_blank">Monsters Inc. Art</a>
                     </p3>
@@ -120,7 +120,7 @@ function Soul() {
                     </div>
                     <div>
                         <p>
-                        After watching the movie 4 times I just started scrubbing through to the “main” parts, which I learned was the complete opposite point of the movie.  As you reach the climax of the film is Joe realizing that its all the “little things” that he was looking past that was what he loved about life.
+                        After watching the movie 4 times I just started scrubbing through to the “main” parts, which I learned was the complete opposite point of the movie.  As you reach the climax of the film Joe is realizing that its all the “little things” that he was looking past that was what he loved about life.
                         </p> 
                             <br/>
                             <p>
@@ -177,7 +177,7 @@ function Soul() {
                     </div>
                     <div>
                         <p>
-                            The more time I spent on the project more and more ideas kept coming up. Usually, idea synthesis is a good thing, but when you're already 3 weeks behind the competition it is all or nothing. If I liked a new idae more, it had to be good enough to justify leaving behind all the work preceding it.
+                            The more time I spent on the project more and more ideas kept coming up. Usually, idea synthesis is a good thing, but when you're already 3 weeks behind the competition it is all or nothing. If I liked a new idea more, it had to be good enough to justify leaving behind all the work preceding it.
                         </p>
                     </div>
                 </div>
@@ -221,7 +221,7 @@ function Soul() {
                     <div className="version__list">
                         <ul>
                         <li>Tried to bring the spotlight out from the inside covers and in to the cover (still interactive).</li>
-                        <li>Couldn't make this design work with other covers</li>
+                        <li>Couldn't make this design work with other covers.</li>
                         </ul>
                     </div>
                     <div className="version__image">
@@ -237,7 +237,7 @@ function Soul() {
                     <div className="version__list">
                         <ul>
                         <li>After spending too much energy into my first 2 designs I wanted to go in a completely different direction.</li>
-                        <li>Started abstracting characters in to significant items throughout the movie. (Pocet Dump items)</li>
+                        <li>Started abstracting characters in to significant items throughout the movie. (Pocket Dump items)</li>
                         <li>Incorporated jazz and pop art themes.</li>
                         </ul>
                     </div>
@@ -281,29 +281,33 @@ function Soul() {
                     </div>
                     <div className="deliverables__content">
                         <p>
-                            I started with spotlight for the important characters for my first iteration, because I thought that would capture the essence of the movie. (V1, V2) <br/>
-                        Soon realizing that each important scene in the movie had Joe interacting with someone in conflict, and it always had some item tied to it. I refer to them as the "pocket dump" items from the climax of the movie. The Pizza Crust, Metro Card, Bagel, Lollipop, Spool, and Flower Pedal. Using those items in my design became the main priority. (V3-Final) For the back cover, there was a scene where Joe is walking through his hall of memories and sees a pedestal with some embarrassing items, and now as a changed soul I wanted to replace those with what he values now.
+                            I started with spotlights for the important characters for my first iteration, because I thought that would capture the essence of the movie. (V1, V2) <br/>
+                        Soon realizing that each important scene in the movie had Joe interacting with someone in conflict, and it always had some item tied to it. I refer to them as the "pocket dump" items from the climax of the movie. The Pizza Crust, Metro Card, Bagel, Lollipop, Spool, and Flower Pedal. Using those items in my designs became the main priority. (V3-Final) For the back cover, there was a scene where Joe is walking through his hall of memories and sees a pedestal with some embarrassing items, and now as a changed soul I wanted to replace those with what he values now.
                         </p>
                         
                     </div>
                     <div className="deliverables__finalImage">
                         <img src={Final} alt=""/>
                     </div>
+                    </div>
                     <div className="takeaways">
                         <div className="takeaways__title">
                             <h1>Takeaways</h1>
                         </div>
                         <div className="takeaways__content">
+                            <h3>
+                                Time/Product Management
+                            </h3>
                             <p>
                                 Unexpected time-crunches are a very real thing that happen in every day situations. Learning to accpet it and optimize workflow is something that everyone should always be working on, but this project really pushed me to work in situations I'm not used to.
                             </p>
                             <br/>
                             <p>
-                                And fro designing a product, I saw a majority of entrants lose focus of the goal. They were to focused on the art apect of the challenge and not what was asked, an album cover. Thought had to go in to presentation and packaging, and it definitely added to the difficulty of designing.
+                            Throughout this project I was able to experience the full scope of a product from brainstorming an idea to the final design.  I wish I could’ve fleshed out more of my ideas, but since I had such limited time there was a lot of prioritizing and pivoting.
                             </p>
                         </div>
                     </div>
-            </div>
+            
                 </div>
             </div>
             </div>

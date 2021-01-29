@@ -47,7 +47,7 @@
     display: grid;
     grid-template-columns: 20% 80%;
     text-align: left;
-    padding-top: 150px;
+    padding-top: 100px;
     height: 175px;
     position: relative;
 }
@@ -108,7 +108,7 @@ padding-bottom: 100px;
 }
 
 .moodBoard__wrapper > div > img{
-    max-width: 100%;
+    max-width: 76%;
 }
 
 .design__wrapperHeader {
@@ -139,7 +139,7 @@ padding-bottom: 100px;
 .design__challenges {
     display: grid;
     grid-template-columns: 30% 70%;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .design__challenges > div > h1 {
@@ -159,6 +159,8 @@ padding-bottom: 100px;
 
 .design__images {
     padding-top: 85px;
+    max-width: 76%;
+    padding-left: 150px;
 }
 
 .design__imagesr1 {
@@ -229,6 +231,7 @@ padding-bottom: 100px;
     padding: 5px 0px 50px 0px;
     font-size: 18px;
     max-width: 75%;
+    line-height: 2;
 }
 
 .deliverables__titleArea {
@@ -297,6 +300,7 @@ padding-top: 150px;
 
 .takeaways__title > h1 { 
     text-align: left;
+    padding-left: 20px;
 }
 
 .takeaways__content {
