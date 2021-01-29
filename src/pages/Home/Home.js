@@ -6,11 +6,12 @@ import './Home.css'
 
 function Home() {
     return (
-        <div>
+        <div className="home__wrapper">
             <Navbar/>
             <div className="container">
                 <TitlePage/>
                 <Projects/>
+                
             </div>
         </div>
     )

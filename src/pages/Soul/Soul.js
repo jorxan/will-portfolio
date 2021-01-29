@@ -4,26 +4,31 @@ import SoulRecordImg from '../../images/Intersect.png';
 import SoulTitle from '../../images/Group 970.png'
 import Navbar from '../../components/Navbar/Navbar';
 import './Soul.css';
-import Squidward from '../../images/IMG_5993.png';
-import BlueNote from '../../images/IMG_5931.png';
-import SaxGuy from '../../images/IMG_5913.png';
-import ColorGuys from '../../images/IMG_5912.png';
-import BlueTrumpet from '../../images/IMG_6039.png';
-import JazzAndArt from '../../images/IMG_5920.png';
-import Bongos from '../../images/IMG_5995.png';
-import JazzInDaHouse from '../../images/IMG_5927.png';
-import Vertigo from '../../images/IMG_6041.png';
-import AzzJa from '../../images/IMG_6040.png';
-import Dots from '../../images/IMG_6069.png';
-import John from '../../images/IMG_5925.png';
-import GardenGate from '../../images/IMG_5921.png';
-import PopFood from '../../images/IMG_5840.png';
-import Caravan from '../../images/IMG_5926.png';
-import WillFilter from '../../images/IMG_5963.png';
+import MoodBoardFull from '../../images/Group 1004.png'
 import V1 from '../../images/Capture3 1.png';
+import V2 from '../../images/Capture4 1.png';
+import V3 from '../../images/Capture6 1.png';
+import V4 from '../../images/Capture7 1.png';
+import FrontCover from '../../images/Frame 5.png';
+import BackCover from '../../images/Frame 3.png';
+import Final from '../../images/Final 1.png';
+import SoulDrawing1 from '../../images/image 7.png';
+import SoulDrawing2 from '../../images/image 1.png';
+import MatchImg from '../../images/IMG_5876 1.png';
+import SoulDrawing3 from '../../images/image 14.png';
+import Spool from '../../images/spool.png';
+import Bagelcase from '../../images/bagelcase.png';
+import Lollipop from '../../images/lollipop.png';
+import SoulHole from '../../images/soulHole.png';
+
 
 
 function Soul() {
+
+    const FirstList = [
+        {"content": "Wanted to play around with an open-faced cover that was interactive with the art.", },
+        {"content": "A spotlight for each important musical character and their instruments."}
+    ]
     return (
         <div>
             <Navbar/>
@@ -69,13 +74,13 @@ function Soul() {
             </div>
             <div className="problem__wrapper">
                 <div className="problem">
-                    <h3>Problem</h3>
+                    <h3>Background</h3>
                     <p1>
                         I had no idea this challenge existed up until about a week before it was due. A problem I had no control over, but that's life.
                     </p1>
                     <br/>
                     <p2>
-                        So it took a lot of long nights. Researching on my phone while at work and scribbling on anything I could write on.
+                        So it tooka lot of long nights, and using any free time I had to research and brainstorm.
                     </p2>
                 </div>
                 <div className="research">
@@ -99,37 +104,9 @@ function Soul() {
                 <h3>Mood Board</h3>
             </div>
             <div className="moodBoard__wrapper">
-                <div>
-                    <div>
-                        <img src={Squidward} alt=""/>
-                    </div>
-                    <div>
-                        <img src={ColorGuys} alt=""/>
-                    </div>
-                    <div>
-                        <img src={Caravan} alt=""/>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src={BlueNote} alt=""/>
-                    </div>
-                    <div>
-                        <img src={SaxGuy} alt=""/>
-                    </div>
-                    <div>
-                        <img src={John} alt=""/>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src={Vertigo} alt=""/>
-                    </div>
-                    <div>
-                        <img src={AzzJa} alt=""/>
-                    </div>
-                    
-                </div>
+             <div>
+                 <img src={MoodBoardFull} alt=""/>
+             </div>
             </div>
             <div className="design__wrapper">
                 <div className="design__wrapperHeader">
@@ -143,15 +120,54 @@ function Soul() {
                     </div>
                     <div>
                         <p>
-                            After watching the movie 4 times I just started scrubbing through to the "main" parts, which I learned was the  complete opposite point of the movie. As you reach the climax of the film Joe is realizing that it's all the "little things" that he was looking past that was what he loved about life.
+                        After watching the movie 4 times I just started scrubbing through to the “main” parts, which I learned was the complete opposite point of the movie.  As you reach the climax of the film is Joe realizing that its all the “little things” that he was looking past that was what he loved about life.
+                        </p> 
                             <br/>
-                            So I decided to watch the film again, but through a new lens.
-                        </p>
+                            <p>
+                            So I made sure to watch the film again through this new lens.
+                            </p>
                     </div>
                     
                 </div>
                 <div className="design__images">
-
+                    <div className="design__imagesr1">
+                        <div>
+                            <img src={SoulDrawing1} alt=""/>
+                        </div>
+                        <div>
+                            <img src={SoulDrawing2} alt=""/>
+                        </div>
+                        <div>
+                            <img src={MatchImg} alt=""/>
+                        </div>
+                    </div>
+                    <div className="design__imagesr2">
+                        <div>
+                            <img src={SoulDrawing3} alt=""/>
+                        </div>
+                        <div className="pocketDump">
+                            <div className="pdl">
+                                <div>
+                                    <img src={Spool} classname="spool" alt=""/>
+                                </div>
+                                <div>
+                                    <img src={Lollipop} alt=""/>
+                                </div>
+                            </div>
+                            <div className="pd2">
+                                <div>
+                                    <img src={Bagelcase} className="bagelcase" alt=""/>
+                                </div>
+                                <div>
+                                    <img src={SoulHole} alt=""/>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className="design__imagesr1">
+                        
+                    </div>
                 </div>
                 <div className="design__challenges">
                     <div className="challenges__header">
@@ -174,30 +190,122 @@ function Soul() {
                     </div>
                     <div>
                         <p>
-                            What started with a couple ideas, eventually became a dozen or more that I wanted to explore further. Even with one week to work, I managed to go in depth in 3 seperate styles, before committing to my final design. It did cause unnecessary challenges, but made for a better product overall.
+                        What started with a couple ideas, eventually became a dozen more that I wanted to explore further.  Even with one week to work, I managed to go in depth in 3 separate styles, before committing to my final design.  It did cause unnecessary challenges but made for a better product overall since I used elements from each iteration.
                         </p>
                     </div>
                 </div>
 
                 {/* Versions */}
-                <div className="v1">
+                <div className="version">
                     <div>
                         <h1>
                             V1
                         </h1>
                     </div>
-                    <div className="v1__list">
+                    <div className="version__list">
                         <ul>
-                            <li>Wanted to play around with an open-faced cover that was interactive with the art</li>
-                            <li>A spotlight for each important musical character and their instruments</li>
+                        <li>Wanted to play around with an open-faced cover that was interactive with the art.</li>
+                        <li>A spotlight for each important musical character and their instruments.</li>
                         </ul>
                     </div>
-                    <div className="v1__image">
+                    <div className="version__image">
                         <img src={V1} alt=""/>
                     </div>
                 </div>
+                <div className="version">
+                    <div>
+                        <h1>
+                            V2
+                        </h1>
+                    </div>
+                    <div className="version__list">
+                        <ul>
+                        <li>Tried to bring the spotlight out from the inside covers and in to the cover (still interactive).</li>
+                        <li>Couldn't make this design work with other covers</li>
+                        </ul>
+                    </div>
+                    <div className="version__image">
+                        <img src={V2} alt=""/>
+                    </div>
+                </div>
+                <div className="version">
+                    <div>
+                        <h1>
+                            V3
+                        </h1>
+                    </div>
+                    <div className="version__list">
+                        <ul>
+                        <li>After spending too much energy into my first 2 designs I wanted to go in a completely different direction.</li>
+                        <li>Started abstracting characters in to significant items throughout the movie. (Pocet Dump items)</li>
+                        <li>Incorporated jazz and pop art themes.</li>
+                        </ul>
+                    </div>
+                    <div className="version__image">
+                        <img src={V3} alt=""/>
+                    </div>
+                </div>
+                <div className="version">
+                    <div>
+                        <h1>
+                            V4
+                        </h1>
+                    </div>
+                    <div className="version__list">
+                        <ul>
+                        <li>All items have been added.</li>
+                        <li>Colors and Composition are set.</li>
+                        </ul>
+                    </div>
+                    <div className="version__image">
+                        <img src={V4} alt=""/>
+                    </div>
+                </div>
+                <div className="deliverables__wrapper">
+                    <div className="deliverables__titleArea">
+                        <div className="deliverables__title">
+                            <h1>Final <br/> Deliverables</h1>
+                        </div>
+                        <div className="deliverables__titleText">
+                            
+                        </div>
+                    </div>
+                    <div className="final__wrapper">
+                    <div className="covers__wrapper">
+                        <div>
+                            <img src={FrontCover} alt=""/>
+                        </div>
+                        <div>
+                            <img src={BackCover} alt=""/>
+                        </div>
+                    </div>
+                    <div className="deliverables__content">
+                        <p>
+                            I started with spotlight for the important characters for my first iteration, because I thought that would capture the essence of the movie. (V1, V2) <br/>
+                        Soon realizing that each important scene in the movie had Joe interacting with someone in conflict, and it always had some item tied to it. I refer to them as the "pocket dump" items from the climax of the movie. The Pizza Crust, Metro Card, Bagel, Lollipop, Spool, and Flower Pedal. Using those items in my design became the main priority. (V3-Final) For the back cover, there was a scene where Joe is walking through his hall of memories and sees a pedestal with some embarrassing items, and now as a changed soul I wanted to replace those with what he values now.
+                        </p>
+                        
+                    </div>
+                    <div className="deliverables__finalImage">
+                        <img src={Final} alt=""/>
+                    </div>
+                    <div className="takeaways">
+                        <div className="takeaways__title">
+                            <h1>Takeaways</h1>
+                        </div>
+                        <div className="takeaways__content">
+                            <p>
+                                Unexpected time-crunches are a very real thing that happen in every day situations. Learning to accpet it and optimize workflow is something that everyone should always be working on, but this project really pushed me to work in situations I'm not used to.
+                            </p>
+                            <br/>
+                            <p>
+                                And fro designing a product, I saw a majority of entrants lose focus of the goal. They were to focused on the art apect of the challenge and not what was asked, an album cover. Thought had to go in to presentation and packaging, and it definitely added to the difficulty of designing.
+                            </p>
+                        </div>
+                    </div>
             </div>
-
+                </div>
+            </div>
             </div>
         </div>
     )

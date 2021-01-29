@@ -1,6 +1,7 @@
 .projects__container {
     text-align: left;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 200px;
 }
 
 .projects__container > h1 {

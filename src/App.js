@@ -8,6 +8,8 @@ import {
   Link
 } from "react-router-dom";
 import Soul from './pages/Soul/Soul';
+import About from './pages/About/About';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,13 +20,13 @@ function App() {
           <Home/>
         </Route>
         <Route exact path="/about">
-          <Home/>
+          <About/>
         </Route>
         <Route exact path="/soul">
           <Soul/>
         </Route>
         </Switch>
-        
+        <Footer/>
       </div>
     </Router>
     

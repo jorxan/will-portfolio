@@ -13,20 +13,25 @@
     position: relative;
 }
 
+.about__name {
+    padding-bottom: 15px;
+}
+
 .project__title {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
 }
 
 .project__type {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .project__link {
     position: absolute;
     bottom: 0;
     padding-bottom: 40px;
+    font-size: 20px;
 }
 
 .fa-chevron-right {
@@ -43,8 +48,13 @@
 }
 
 .room__purple {
-    color: #c583d8;
+    color: #c7b8fb;
 }
+
+.unfinished__color {
+    color: #616161;
+}
+
 
 .project__link:hover {
     cursor: pointer;
