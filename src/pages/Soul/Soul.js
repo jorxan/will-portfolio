@@ -299,11 +299,15 @@ function Soul() {
                                 Time/Product Management
                             </h3>
                             <p>
-                                Unexpected time-crunches are a very real thing that happen in every day situations. Learning to accpet it and optimize workflow is something that everyone should always be working on, but this project really pushed me to work in situations I'm not used to.
+                                Unexpected time-crunches are a very real thing that happen in every day situations. Learning to accept it and optimize workflow is something that everyone should always be working on, but this project really pushed me to work in situations I'm not used to.
                             </p>
                             <br/>
                             <p>
                             Throughout this project I was able to experience the full scope of a product from brainstorming an idea to the final design.  I wish I could’ve fleshed out more of my ideas, but since I had such limited time there was a lot of prioritizing and pivoting.
+                            </p>
+                            <br/>
+                            <p>
+                            Overall, I’m really happy with how this turned out.  I was able to find a style that imitated jazz art while still keeping a friendly pop.  The simple shapes and bold colors create an amazing backdrop for the items at play.
                             </p>
                         </div>
                     </div>

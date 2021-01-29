@@ -132,7 +132,7 @@ padding-bottom: 100px;
 .design__wrapperHeader > div > p {
     text-align: left;
     font-size: 18px;
-    width: 100%;
+    width: 84%;
     padding-left: 10px;
 }
 
@@ -153,7 +153,7 @@ padding-bottom: 100px;
 .design__challenges > div > p {
     text-align: left;
     font-size: 18px;
-    width: 90%;
+    width: 84%;
     padding-left: 10px;
 }
 
@@ -212,13 +212,13 @@ padding-bottom: 100px;
 .design__iterations > div > p {
     text-align: left;
     font-size: 18px;
-    width: 90%;
+    width: 84%;
     padding-left: 10px;
 }
 
 .version {
     display: grid;
-    grid-template-columns: 10% 50% 40%;
+    grid-template-columns: 10% 40% 50%;
     padding-top: 50px;
 }
 
@@ -230,7 +230,7 @@ padding-bottom: 100px;
     text-align: left;
     padding: 5px 0px 50px 0px;
     font-size: 18px;
-    max-width: 75%;
+    max-width: 95%;
     line-height: 2;
 }
 
@@ -260,7 +260,7 @@ padding-top: 150px;
 
 .covers__wrapper > div {
     text-align: left;
-    max-width: 40%;
+    max-width: 45%;
     padding: 0 20px 0 0;
 }
 
@@ -275,7 +275,7 @@ padding-top: 150px;
     padding-right: 100px;
     padding-left: 1px;
     padding-top: 35px;
-    max-width: 80%;
+    max-width: 89%;
 }
 
 .deliverables__titleArea {
@@ -288,12 +288,10 @@ padding-top: 150px;
 }
 
 .deliverables__finalImage > img {
-    max-width: 78%;
+    max-width: 89%;
 }
 
 .takeaways {
-    display: grid;
-    grid-template-columns: 30% 70%;
     padding-top: 50px;
     padding-bottom: 200px;
 }
@@ -304,14 +302,21 @@ padding-top: 150px;
 }
 
 .takeaways__content {
-    text-align: left;
+    text-align: center;
     font-size: 18px;
-    padding-right: 125px;
-    max-width: 70%;
+    padding-left: 120px;
+    max-width: 80%;
 }
 
 .takeaways__content > p {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.takeaways__content > h3 {
+    padding-top: 30px;
+    font-weight: 500;
+    text-align: left;
 }
 
 .final__wrapper {
