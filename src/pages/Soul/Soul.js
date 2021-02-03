@@ -16,10 +16,11 @@ import SoulDrawing1 from '../../images/image 7.png';
 import SoulDrawing2 from '../../images/image 1.png';
 import MatchImg from '../../images/IMG_5876 1.png';
 import SoulDrawing3 from '../../images/image 14.png';
-import Spool from '../../images/spool.png';
-import Bagelcase from '../../images/bagelcase.png';
-import Lollipop from '../../images/lollipop.png';
-import SoulHole from '../../images/soulHole.png';
+import Spool from '../../images/IMG_5867 2.png';
+import Bagelcase from '../../images/IMG_5865 2.png';
+import Lollipop from '../../images/IMG_5866 2.png';
+import SoulHole from '../../images/IMG_5870 2.png';
+import Footer from '../../components/Footer/Footer'
 
 
 
@@ -34,6 +35,7 @@ function Soul() {
             <Navbar/>
             <CaseStudyHeader backgroundColor="soul__background" heroImg={SoulRecordImg} titleImg={SoulTitle}/>
             <div className="container">
+                <div className="soul__container">
                 <div className="summary__header">
                     <div className="adc">
                         Adobe Design Challenge
@@ -52,52 +54,66 @@ function Soul() {
                     </p>
                 </div>
                 <div className="summary__right">
-                    <h3>
-                        Team/Role
-                    </h3>
-                    <p>
-                        Independent Project
-                    </p>
-                    <h3>
-                        Duration
-                    </h3>
-                    <p>
-                        1 week
-                    </p>
-                    <h3>
-                        Tools
-                    </h3>
-                    <p>
-                        Adobe CC
-                    </p>
+                    <div>
+                        <div>
+                            <h3>
+                                Team/Role
+                            </h3>
+                            <p>
+                                Independent Project
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Duration
+                            </h3>
+                            <p>
+                                1 week
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Tools
+                            </h3>
+                            <p>
+                                Adobe CC
+                            </p>
+                        </div>
+                    </div>  
                 </div>
             </div>
             <div className="problem__wrapper">
                 <div className="problem">
                     <h3>Background</h3>
-                    <p1>
+                    <div>
+                    <p>
                         I had no idea this challenge existed up until about a week before it was due. A problem I had no control over, but that's life.
-                    </p1>
-                    <br/>
-                    <p2>
+                    </p>
+                    <p>
                         So it took a lot of long nights, and using any free time I had to research and brainstorm.
-                    </p2>
+                    </p>
+                    </div>
+                    
                 </div>
                 <div className="research">
+                    <div>
                     <h3>Research</h3>
-                    <p1>Never having designed jazz art before, I had to do a lot of research. Which meant a lot of listening to music, looking at album art, and watching <span> Soul</span> on repeat.
-                    </p1>
-                    <br/>
-                    <p2>
+                    </div>
+                    <div>
+                    <p>Never having designed jazz art before, I had to do a lot of research. Which meant a lot of listening to music, looking at album art, and watching <span> Soul</span> on repeat.
+                    </p>
+                    <p>
                         I wanted to focus on a few main areas: color, shapes, and typography.
-                    </p2>
-                    <br/>
-                    <p3>
+                    </p>
+                    <p>
                         <span>Monsters Inc. </span>
                         had a strong jazz influence with its musical score and artwork, and it was Pixar's, so naturally I went there first. I filtered through hundreds of album covers and posters, with an emphasis on jazz, but not exclusively. Since this was my first time creating album art I had to keep my mind open to all forms.
-                        <br/>
-                        <a href="https://www.artofthetitle.com/title/monsters-inc/" target="_blank">Monsters Inc. Art</a>
-                    </p3>
+                        <p>
+                            <a href="https://www.artofthetitle.com/title/monsters-inc/" target="_blank">Monsters Inc. Art</a>
+                        </p>
+                        
+                    </p>                  
+                    </div>
                 </div>
             </div>
             <div className="moodBoard__title">
@@ -118,7 +134,7 @@ function Soul() {
                             Brainstorming
                         </div>
                     </div>
-                    <div>
+                    <div className="design__text">
                         <p>
                         After watching the movie 4 times I just started scrubbing through to the “main” parts, which I learned was the complete opposite point of the movie.  As you reach the climax of the film Joe is realizing that its all the “little things” that he was looking past that was what he loved about life.
                         </p> 
@@ -165,9 +181,6 @@ function Soul() {
                             
                         </div>
                     </div>
-                    <div className="design__imagesr1">
-                        
-                    </div>
                 </div>
                 <div className="design__challenges">
                     <div className="challenges__header">
@@ -202,6 +215,7 @@ function Soul() {
                             V1
                         </h1>
                     </div>
+                    <div className="version__columnR">
                     <div className="version__list">
                         <ul>
                         <li>Wanted to play around with an open-faced cover that was interactive with the art.</li>
@@ -211,6 +225,8 @@ function Soul() {
                     <div className="version__image">
                         <img src={V1} alt=""/>
                     </div>
+                    </div>
+
                 </div>
                 <div className="version">
                     <div>
@@ -218,6 +234,7 @@ function Soul() {
                             V2
                         </h1>
                     </div>
+                    <div className="version__columnR">
                     <div className="version__list">
                         <ul>
                         <li>Tried to bring the spotlight out from the inside covers and in to the cover (still interactive).</li>
@@ -227,6 +244,7 @@ function Soul() {
                     <div className="version__image">
                         <img src={V2} alt=""/>
                     </div>
+                    </div>
                 </div>
                 <div className="version">
                     <div>
@@ -234,6 +252,7 @@ function Soul() {
                             V3
                         </h1>
                     </div>
+                    <div className="version__columnR">
                     <div className="version__list">
                         <ul>
                         <li>After spending too much energy into my first 2 designs I wanted to go in a completely different direction.</li>
@@ -244,6 +263,7 @@ function Soul() {
                     <div className="version__image">
                         <img src={V3} alt=""/>
                     </div>
+                    </div>
                 </div>
                 <div className="version">
                     <div>
@@ -251,6 +271,7 @@ function Soul() {
                             V4
                         </h1>
                     </div>
+                    <div className="version__columnR">
                     <div className="version__list">
                         <ul>
                         <li>All items have been added.</li>
@@ -259,6 +280,7 @@ function Soul() {
                     </div>
                     <div className="version__image">
                         <img src={V4} alt=""/>
+                    </div>
                     </div>
                 </div>
                 <div className="deliverables__wrapper">
@@ -295,9 +317,6 @@ function Soul() {
                             <h1>Takeaways</h1>
                         </div>
                         <div className="takeaways__content">
-                            <h3>
-                                Time/Product Management
-                            </h3>
                             <p>
                                 Unexpected time-crunches are a very real thing that happen in every day situations. Learning to accept it and optimize workflow is something that everyone should always be working on, but this project really pushed me to work in situations I'm not used to.
                             </p>
@@ -311,7 +330,7 @@ function Soul() {
                             </p>
                         </div>
                     </div>
-            
+                 </div>
                 </div>
             </div>
             </div>

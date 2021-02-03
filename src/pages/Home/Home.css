@@ -1,0 +1,10 @@
+@media screen and (max-width: 1500px) {
+
+    .project__title {
+        font-size: 2em;
+    }
+}
+
+.home__content {
+    padding-left: 100px;
+}

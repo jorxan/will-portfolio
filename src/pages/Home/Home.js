@@ -9,9 +9,10 @@ function Home() {
         <div className="home__wrapper">
             <Navbar/>
             <div className="container">
-                <TitlePage/>
-                <Projects/>
-                
+                <div className="home__content">
+                    <TitlePage/>
+                    <Projects/>
+                </div>
             </div>
         </div>
     )

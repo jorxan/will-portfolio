@@ -35,12 +35,13 @@
     padding-left: 50px;
 }
 
-.summary__right > h3 {
+.summary__right > div > div > h3 {
     font-size: 22px;
 }
 
-.summary__right > p {
+.summary__right > div > div > p {
     font-size: 18px;
+    color: #757575;
 }
 
 .problem {
@@ -48,7 +49,6 @@
     grid-template-columns: 20% 80%;
     text-align: left;
     padding-top: 100px;
-    height: 175px;
     position: relative;
 }
 
@@ -56,54 +56,50 @@
     font-size: 22px;
 }
 
-.problem > p1 {
+.problem > div > p {
     margin-bottom: 30px;
-}
-
-.problem > p1, .problem >  p2 {
     font-size: 18px;
     max-width: 90%;
 }
+
 
 
 .research {
     display: grid;
     grid-template-columns: 20% 80%;
     text-align: left;
-    padding-top: 5%;
+    padding-top: 25px;
 }
 
-.research > h3 {
+.research > div > h3 {
     font-size: 22px;
 }
 
-.research > p1 {
+.research > div > p {
     margin-bottom: 30px;
-}
-.research > p2 {
-    margin-bottom: 30px;
+    font-size: 18px;
 }
 
-p3 > span {
+p > span {
     font-style: italic;
 }
 
-p3 > a{
+p > a{
     color: #437ACE;
 }
 
-.research > p1, .research > p2, .research > p3 {
+.research > p {
     font-size: 18px;
     max-width: 90%;
 }
 
 .moodBoard__title {
-    padding: 12% 0 50px 0;
+    padding: 50px 0 50px 0;
     font-size: 25px;
 }
 
 .moodBoard__wrapper {
-padding-bottom: 100px;
+padding-bottom: 110px;
 /* padding-left: ; */
 }
 
@@ -218,8 +214,17 @@ padding-bottom: 100px;
 
 .version {
     display: grid;
-    grid-template-columns: 10% 40% 50%;
+    grid-template-columns: 10% 90%;
     padding-top: 50px;
+}
+
+.version__columnR {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.version__image > img {
+    max-width: 85%;
 }
 
 .version__list > ul  {
@@ -235,10 +240,8 @@ padding-bottom: 100px;
 }
 
 .deliverables__titleArea {
-display: grid;
-grid-template-columns: 30% 70%;
 max-width: 100%;
-padding-top: 150px;
+padding-top: 100px;
 }
 
 .deliverables__title {
@@ -344,5 +347,265 @@ padding-top: 150px;
     .covers__wrapper > div {
         max-width: 100%;
         padding: 60px
+    }
+    }
+
+    @media only screen and (max-width: 1310px) {
+      .summary__header {
+          text-align: center;
+
+      }
+
+      .summary {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 9%;
+      }
+
+      .summary__right {
+          padding-left: 0;
+      }
+
+      .summary__right > div {
+        text-align: center;
+        max-width: 90%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+      .summary__right > div > div {
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        margin-bottom: 20px
+    }
+
+    .problem__wrapper {
+        padding-left: 9%;
+    }
+
+    .problem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .problem > h3 {
+        text-align: center;
+        padding-right: 10%;
+        font-size: 30px;
+
+    }
+
+    .problem > div > p {
+        margin: 19px 0;
+    }
+
+    .research {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .research > div > h3{
+        text-align: center;
+        padding-right: 10%;
+        font-size: 30px;
+    }
+
+    .design__wrapper {
+        padding-left: 9%;
+    }
+
+    .design__wrapperHeader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .design__wrapperHeader > div > div {
+        text-align: center;
+        padding-right: 13%;
+        font-size: 30px;
+    }
+
+    .design__text {
+        padding-top: 20px;
+    }
+
+    .design__images {
+        padding: 0;
+        margin:0;
+    }
+    
+    /* .design__imagesr1 {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    /* .design__imagesr2 {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    /* .pocketDump {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .design__challenges {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .design__challenges > div > h1{
+        text-align: center;
+        padding-right: 13%;
+    }
+
+    .design__iterations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .design__iterations > div > h1{
+        text-align: center;
+        padding-right: 13%;
+    }
+
+    .version {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .version__columnR {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .version__image > img {
+        max-width: 100%;
+    }
+
+    .version__list {
+        padding-top: 15px;
+    }
+
+    .deliverables__title > h1 {
+        text-align: center;
+        padding-right: 10%;
+     }
+
+     .final__wrapper {
+         padding-left: 0;
+     }
+
+     .covers__wrapper > div{
+        padding: 0;
+     }
+
+     .deliverables__content {
+         padding: 0;
+         padding-top: 15px;
+         max-width: 100%;
+     }
+
+     .takeaways__title > h1 {
+         text-align: center;
+         padding-right: 10%;
+     }
+
+     .takeaways__content {
+         padding: 0;
+         margin: 0;
+         max-width: 100%;
+     }
+
+     .deliverables__finalImage > img {
+        max-width: 100%;
+    }
+    }
+
+
+    @media screen and (max-width: 700px) {
+        .moodBoard__wrapper > div {
+            text-align: center;
+            max-width: 100%;
+            margin-left: 12%;
+        }
+
+        .moodBoard__wrapper > div > img {
+            text-align: center;
+            max-width: 100%;
+            
+        }
+
+        
+
+      }
+
+      @media screen and (max-width: 500px) {
+        .design__images {
+            max-width: 95%;
+        }
+
+        .problem {
+            padding-top: 30px;
+        }
+
+        .moodBoard__title {
+            padding: 30px 0 25px 0;
+        }
+
+        .research > div > p {
+            margin: 3%;
+            padding-right: 2%;
+        }
+
+        .moodBoard__wrapper > div {
+            margin: 0 10%;
+        }
+
+        .design__wrapper {
+            padding-left: 3%;
+        }
+
+        .design__wrapperHeader > div > p {
+            text-align: left;
+            font-size: 18px;
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        .design__challenges > div > p {
+            text-align: left;
+            font-size: 18px;
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        .design__iterations > div > p {
+            text-align: left;
+            font-size: 18px;
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        .caseStudyHeader__wrapper {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 5% 5% 5% 5%;
+        }
+
+        .caseStudy__titleImg > img {
+            max-width: 90%;
+            padding: 17% 10% 10% 0%;
+      }
+
+      .caseStudy__heroImg > img {
+        max-width: 100%;
+        padding: 5% 0;
+
+      }
+
+      .design__iterations > div > p {
+        padding-top: 15px;
     }
     }

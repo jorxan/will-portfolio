@@ -5,7 +5,7 @@
 }
 
 .project__img > img {
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .project__description {
@@ -18,8 +18,11 @@
 }
 
 .project__title {
-    font-size: 40px;
     margin-top: 20px;
+}
+
+.project__title > h1 {
+    font-size: 33px;
 }
 
 .project__type {
@@ -58,4 +61,36 @@
 
 .project__link:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1640px) {
+    .project__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project__description {
+     padding-left: 0;   
+    }
+    .project__title {
+        display: flex;
+        justify-content: center
+    }
+
+    .project__image > img {
+        max-width: 100%;
+    }
+
+    .name__link {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+    .project__link {
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        color: #000;
+    }
 }

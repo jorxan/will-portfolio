@@ -11,7 +11,7 @@ import Dino from '../../images/jurrasic_img.png';
 
 function ImageGallery() {
     return (
-        <div className="gallery__wrapper" id="tim">
+        <div className="gallery__wrapper">
             <div>
                 <img src={Shenron} alt=""/>
             </div>
