@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 30% 70%;
     padding-top: 180px;
-    padding-bottom: 300px;
+    padding-bottom: 75px;
 }
 
 .about__headerWrapper > div > img {
@@ -27,4 +27,20 @@
     padding-bottom: 10px;
 }
 
+.gallery__dropdown {
+    text-align: left;
+    padding-left: 10%;
+    font-weight: 500;
+}
+
+.artwork__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120px;
+    background-color: hsl(0, 0%, 78%, 50%);
+    border-radius: 5;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
 

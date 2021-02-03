@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import './About.css';
 import HeaderImg from '../../images/image 10.png';
@@ -6,24 +6,17 @@ import EmailIcon from '../../images/Group 988.png';
 import LinkedInIcon from '../../images/linkedin.png';
 import InstagramIcon from '../../images/instagram.png';
 import SpotifyIcon from '../../images/Group 987.png';
+import ImageGallery from '../../components/ImageGallery/ImageGallery';
 
 
 function About() {
 
-    const [aboutContentHeight, setAboutHeight] = useState(0)
 
+    const GalleryView = () => {
+        const greg = document.getElementById("tim")
 
-    const imageHeight = () => {
-        let x = document.getElementById("about__content").style.height;
-        setAboutHeight(x);
-        console.log(aboutContentHeight);
+        greg.classList.add("fart")
     }
-
-
-    useEffect(() => {
-        imageHeight();
-    })
-
 
     return (
         <div>
@@ -55,7 +48,12 @@ function About() {
                             </div>
                         </div>
                     </div>
-
+                    <div className="gallery__dropdown">
+                        <div className="artwork__btn" onClick={GalleryView}>
+                        Artwork & <br/> illustrations
+                        </div> 
+                    </div>
+                    <ImageGallery />
                 </div>
         </div>
     )
