@@ -11,6 +11,23 @@ import ImageGallery from '../../components/ImageGallery/ImageGallery';
 
 function About() {
 
+    function EmailFunction()
+{
+    window.location.href = "mailto:ogchungmoney@gmail.com";
+}
+
+function LinkedInFunction() {
+    window.open('https://www.linkedin.com/in/chungmoney/', '_blank');
+}
+
+function InstagramFunction() {
+    window.open('https://www.instagram.com/chungmulah/', '_blank');
+}
+
+function SpotifyFunction() {
+    window.open('https://open.spotify.com/playlist/4oW3E0E8Syis6xztL3QsMN?si=8eWWg94mT0emAVJ6hXgbRw', '_blank');
+}
+
 
     const GalleryView = () => {
         const greg = document.getElementById("tim")
@@ -45,17 +62,17 @@ function About() {
                                     <div className="about__linksWrapper">
                                         <div className="icon__container">
                                             <ul>
-                                                <li>
-                                                    <img src={EmailIcon} alt="email" id="email__icon"/>
+                                                <li >
+                                                    <img src={EmailIcon} alt="email" id="email__icon"  onClick={EmailFunction}/>
                                                 </li>
                                                 <li>
-                                                    <img src={LinkedInIcon} alt="linkedIn" id="linkedIn__icon"/>
+                                                    <img src={LinkedInIcon} alt="linkedIn" id="linkedIn__icon" onClick={LinkedInFunction}/>
                                                 </li>
                                                 <li>
-                                                    <img src={InstagramIcon} alt="instagram" id="instagram__icon"/>
+                                                    <img src={InstagramIcon} alt="instagram" id="instagram__icon" onClick={InstagramFunction}/>
                                                 </li>
                                                 <li>
-                                                    <img src={SpotifyIcon} alt="spotify" id="spotify__icon"/>
+                                                    <img src={SpotifyIcon} alt="spotify" id="spotify__icon" onClick={SpotifyFunction}/>
                                                 </li>
                                             </ul>
                                         </div>
