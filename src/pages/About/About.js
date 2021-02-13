@@ -6,8 +6,8 @@ import EmailIcon from '../../images/Group 1000.png';
 import LinkedInIcon from '../../images/Group 1020.png';
 import InstagramIcon from '../../images/Group 1018.png';
 import SpotifyIcon from '../../images/Group 1014.png';
-import ImageGallery from '../../components/ImageGallery/ImageGallery';
-
+import ResumeButton from '../../images/resume button.png';
+import ResumePDF from './Resume.pdf';
 
 function About() {
 
@@ -49,12 +49,22 @@ function SpotifyFunction() {
                         <div className="about__content">
                             <div>
                                 <p>
-                                I’m a Product/UX designer with a background in mixed-media art based in Phoenix, AZ.  I enjoy the challenge of solving problems through design.  I’ve spent the last 6 years working in the customer service industry building strong communication and teamwork skills accelerating this transition in to Experince Design.
+                                I’m a Product/UX designer with a background in mixed-media art based in Phoenix, AZ.  I enjoy the challenge of solving problems through design.  I’ve spent the last 6 years working in the customer service industry building strong communication and teamwork skills accelerating this transition in to Experience Design.
                                 </p>
                                 <p>
-                                I believe in designing products that are practical, impactful, and accessible.  Making a product visually pleasing and functional, while keeping it easy to use is a process that can always be refined.  I’m always looking for opportunities to work with people who follow these same ideals, and want to make helpful products for everyone.
+                                I believe in designing products that are practical, impactful, and accessible.  Making products visually pleasing and functional, while keeping them easy to use is a process that can always be refined.  I’m always looking for opportunities to work with people who follow these same ideals, and want to make helpful products for everyone.
+
 
                                 </p>
+                                <div className="resume__buttonContainer">
+                                    <div>
+
+                                    <a target="_blank" href={ResumePDF}><img src={ResumeButton} alt="" id="resume__button"/></a>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
                             </div>
                             <div>
                                 <div className="about__content2">
@@ -76,20 +86,37 @@ function SpotifyFunction() {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div>
-                                            <h3>
-                                                Get in touch!
-                                            </h3>
-                                        </div>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div className="other__interests">
+                    <div className="skills__interests">
+                        <div className="skills__wrapper">
                         <div>
                             <h3>
+                                Skills
+                            </h3>
+                        </div>
+                            <div className="skills__container">
+                                <ul>
+                                    <li>Figma</li>
+                                    <li>Adobe CC</li>
+                                    <li>Rapid Prototyping</li>
+                                    <li>AutoCAD / SketchUp</li>
+                                </ul>
+                                <ul>
+                                    <li>Graphic Design</li>
+                                    <li>Product Design</li>
+                                    <li>Sketching</li>
+                                    <li>HTML/CSS/JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="interests__wrapper">
+                        <div>
+                            <h3 className="interests__title">
                                 Other Interests
                             </h3>
                         </div>
@@ -105,21 +132,11 @@ function SpotifyFunction() {
                                 <li>SSBU</li>
                             </ul>
                         </div>
+                        </div>
+                        
                     </div>
 
-                    <div className="other__work">
-                        <div>
-                            <h3>View my other work</h3>
-                        </div>
-                        <div>
-                            <i><svg width="26" height="38" viewBox="0 0 26 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0.0001055 24.7279L2.82853 21.8995L12.728 31.799L22.6275 21.8995L25.456 24.7279L15.5565 34.6274L12.728 37.4558L9.8996 34.6274L0.0001055 24.7279Z" fill="#C4C4C4"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0.0001055 12.7279L2.82853 9.89949L12.728 19.799L22.6275 9.89949L25.456 12.7279L15.5565 22.6274L12.728 25.4558L9.8996 22.6274L0.0001055 12.7279Z" fill="#C4C4C4"/>
-</svg>
-</i>
-                        </div>
-                    </div>
-                    <ImageGallery/>
+                    
                 </div> 
                 </div>
         </div>

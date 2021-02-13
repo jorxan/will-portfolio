@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
-import ResumePDF from './Resume.pdf'
+
 
 function Navbar() {
     return (
@@ -20,8 +20,10 @@ function Navbar() {
                         About
                     </Link>
                 </li>
-                <li className="resumebtn">
-                    <a target="_blank" href={ResumePDF}>Resume</a>
+                <li className="art__button">
+                    <Link to="/art">
+                        Art
+                    </Link>
                 </li>
             </ul>
         </div>

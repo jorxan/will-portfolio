@@ -11,6 +11,7 @@ import Soul from './pages/Soul/Soul';
 import About from './pages/About/About';
 import Footer from './components/Footer/Footer';
 import ImageGallery from './components/ImageGallery/ImageGallery';
+import Art from './pages/Art/Art';
 
 function App() {
   return (
@@ -26,8 +27,8 @@ function App() {
         <Route exact path="/soul">
           <Soul/>
         </Route>
-        <Route exact path="/images">
-          <ImageGallery/>
+        <Route exact path="/art">
+          <Art/>
         </Route>
         </Switch>
       </div>

@@ -23,7 +23,7 @@ function Project({img , title, title2, projectType, link, color, caseStudyLink, 
             <div className="project__description">
                 <div className="project__title">
                 <h1>{title}</h1>
-                <h1>{title2}</h1>
+                <h1 class>{title2}</h1>
                 </div>
                 <div className="name__link">
                 <div className="project__type">
