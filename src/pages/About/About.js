@@ -95,9 +95,9 @@ function SpotifyFunction() {
                     <div className="skills__interests">
                         <div className="skills__wrapper">
                         <div>
-                            <h3>
+                            <h1>
                                 Skills
-                            </h3>
+                            </h1>
                         </div>
                             <div className="skills__container">
                                 <ul>
@@ -116,9 +116,9 @@ function SpotifyFunction() {
                         </div>
                         <div className="interests__wrapper">
                         <div>
-                            <h3 className="interests__title">
+                            <h1 className="interests__title">
                                 Other Interests
-                            </h3>
+                            </h1>
                         </div>
                         <div className="interests">
                             <ul>

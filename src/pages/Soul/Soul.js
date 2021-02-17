@@ -164,7 +164,7 @@ function Soul() {
                         <div className="pocketDump">
                             <div className="pdl">
                                 <div>
-                                    <img src={Spool} classname="spool" alt=""/>
+                                    <img src={Spool} className="spool" alt=""/>
                                 </div>
                                 <div>
                                     <img src={Lollipop} alt=""/>

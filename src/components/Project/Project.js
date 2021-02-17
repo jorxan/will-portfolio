@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 function Project({img , title, title2, projectType, link, color, caseStudyLink, id}) {
 
     const scrollToTop = (event) => {
-            let x = event.target.id
+            let x = event.currentTarget
 
             if (x === "makeRoom" || x === "street") {
 
@@ -30,7 +30,7 @@ function Project({img , title, title2, projectType, link, color, caseStudyLink, 
                     {projectType}
                 </div>
                 <Link to={link}  className="project__link"  onClick={scrollToTop} id={id}>
-                        {caseStudyLink} <i className={`fas fa-chevron-right fa-2x ${color}`}></i>
+                        {caseStudyLink}
                 </Link>
                 </div>
             </div>

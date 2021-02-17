@@ -5,7 +5,7 @@
 
 .about__headerWrapper {
     text-align: left;
-    padding-top: 15%;
+    padding-top: 12%;
 }
 
 .about__name {
@@ -23,7 +23,7 @@
 }
 
 .about__content > div > p {
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 15px;
 }
 
@@ -76,7 +76,7 @@ padding: 10px 25px 5px 10px
 
 .interests > ul {
     list-style-type: none;
-    padding-left: 20%;
+    padding: 6px 10px 6px 35px;
     text-align: left;
 }
 
@@ -85,6 +85,11 @@ padding: 10px 25px 5px 10px
     padding-bottom: 12px;
     font-size: 16px;
 
+}
+
+.interests__wrapper > div > h1{
+text-align: left;
+font-size: 24px;
 }
 
 .skills__interests {
@@ -109,7 +114,7 @@ padding: 10px 25px 5px 10px
 .skills__container > ul {
     list-style: none;
     text-align: left;
-    padding-left: 20%;
+    padding: 6px 10px 6px 35px;
 }
 
 .skills__container > ul > li{
@@ -119,9 +124,11 @@ padding: 10px 25px 5px 10px
     font-weight: 500;
 }
 
-.skills__wrapper > div > h3 {
+.skills__wrapper > div > h1 {
     text-align: left;
     padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 .interests__title {
@@ -158,6 +165,41 @@ padding: 10px 25px 5px 10px
 
     .other__interests {
         max-width: 100%;
+    }
+
+    .skills__interests {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .interests__wrapper {
+        padding-top: 50px;
+    }
+
+    .about__name > h1 {
+        text-align: center;
+    }
+
+    .resume__buttonContainer {
+        text-align: center;
+    }
+
+    .skills__wrapper > div > h1 {
+        text-align: center;
+    }
+
+    .skills__container > ul {
+        text-align: center;
+        padding: 6px 0px;
+    }
+
+    .interests__wrapper > div > h1 {
+        text-align: center;
+    }
+
+    .interests > ul {
+        text-align: center;
+        padding: 6px 0px;
     }
 }
 

@@ -14,11 +14,7 @@ function TitlePage() {
                     <span id="slash">/</span>
                     <span id="ux">UX</span> Designer, based in  
                     <span id="phx"> PHX AZ</span> 
-                    , designing
-                    <br/>
-                    <span id="end"> end-to-end </span>
-                     
-                     for the best possible experience.
+                    , designing products that are useful and impactful.
                 </h3>
             </div>
 

@@ -5,6 +5,8 @@
     }
 }
 
-.home__content {
-    padding-left: 100px;
+@media screen and (max-width: 1650px) {
+    .home__content {
+        padding: 0 20px;
+    }
 }
