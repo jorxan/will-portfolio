@@ -12,6 +12,7 @@ import About from './pages/About/About';
 import Footer from './components/Footer/Footer';
 import ImageGallery from './components/ImageGallery/ImageGallery';
 import Art from './pages/Art/Art';
+import MakeRoom from './pages/MakeRoom/MakeRoom';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route exact path="/art">
           <Art/>
+        </Route>
+        <Route exact path="/makeroom">
+          <MakeRoom/>
         </Route>
         </Switch>
       </div>

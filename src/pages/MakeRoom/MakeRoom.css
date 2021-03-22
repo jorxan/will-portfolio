@@ -1,0 +1,423 @@
+.problem__wrapperMR {
+    margin: 0 22% 0 22%;
+}
+
+.room__background {
+    background-color: #C7B8FB;
+}
+
+.room__header {
+    padding-top: 30px;
+    background-color: #C7B8FB;
+}
+
+.room__headerContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 22% 0 22%;
+}
+
+.room__description {
+    padding-top: 140px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.room__role {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    padding-top: 30px;
+}
+
+.tools {
+    padding-top: 20px;
+}
+
+.room__duration > p {
+    color: #676767;
+}
+
+.room__roleTitle > p {
+    color: #676767;
+}
+
+.tools > p {
+    color: #676767;
+}
+
+
+.team {
+    padding-top: 20px;
+}
+
+.team > p {
+    color: #676767;
+}
+
+.product__opportunityTitle > h3 {
+    font-size: 22px;
+}
+
+.research__container {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #F1F1F1;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+.research__containerHeader {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.research__containerHeader > div > h3 {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.research__containerHeader > h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.research__objective {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    text-align: left;
+    padding-top: 35px;
+}
+
+.research__objective > p {
+    font-size: 18px;
+}
+
+.objective__title > h3 {
+    font-size: 22px;
+}
+
+.user__insight {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    text-align: left;
+    padding-top: 35px;
+}
+
+.user__insight > ul > li > p {
+    font-size: 18px;
+}
+
+.user__insight > ul > li {
+    list-style-type: none;
+}
+
+.insight__title > h3 {
+    font-size: 22px;
+}
+
+.competitor__analysisWrapper {
+    margin: 0 22% 0 22%;
+    padding-top: 60px;
+}
+
+.competitor__analysisTitle {
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.competitor__wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 60px;
+}
+
+.competitor__description {
+    text-align: left;
+}
+
+.competitor__title {
+    padding-bottom: 30px;
+}
+
+.competitor__title > h3 > span {
+    color: #AEAEAE;
+    padding-left: 20px;
+}
+
+.competitor__title > h3 {
+    font-size: 22px;
+}
+
+.competitor__pros {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.competitor__pros > h3 {
+    color: #93D0AC;
+    padding-bottom: 15px;
+}
+
+.competitor__pros > ul {
+    list-style-type: none;
+}
+
+.competitor__cons {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.competitor__cons > h3 {
+    color: #FF9B9B;
+    padding-bottom: 15px;
+}
+
+.competitor__cons > ul {
+    list-style-type: none;
+}
+
+.competitor__imgContainer {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.competitor__imgContainer > img{
+    max-width: 100%;
+}
+
+.takeaways__competitorAnalysisWrapper {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.takeaways__competitorAnalysisTitle > h3 {
+    font-size: 22px;
+    color: #7C7C7C;
+    padding-bottom: 20px;
+}
+
+.takeaways__competitorAnalysisText > p, .takeaways__competitorAnalysisText > ul > li > p {
+    font-size: 18px;
+}
+
+.takeaways__competitorAnalysisText > ul {
+    list-style-type: none;
+}
+
+.target__userWrapper {
+    background-color: #F1F1F1;
+    padding: 0 22% 2.5% 22%;
+}
+
+.target__userWrapper > h1 {
+    font-size: 22px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.target__userWrapper > p > span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.target__userWrapper > p {
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.ideating__wrapper {
+    padding: 2.5% 22% 2.5% 22%;
+}
+
+.ideating__header {
+    text-align: left;
+}
+
+.user__flowWrapper {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 15% 100%;
+    padding-top: 40px;
+}
+
+.user__flowWrapper > h3 {
+     text-align: right;
+     padding-right: 25px;
+     color: #7C7C7C;
+     font-weight: 600;
+}
+
+.room__flowWrapper > img {
+    max-width: 100%;
+}
+
+.wireframes__wrapper {
+    padding-top: 100px;
+    text-align: left;
+}
+
+.wireframes__wrapper > div {
+    padding-top: 40px;
+}
+
+.making__room > img {
+    max-width: 100%;
+}
+
+.filling__room > img {
+    max-width: 100%;
+}
+
+
+.prototype__wrapper {
+    padding-top: 80px;
+}
+
+.prototype__wrapper > h3 {
+    text-align: left;
+    color: #7C7C7C;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 40px;
+}
+
+.prototype__imgWrapper > img{
+max-width: 100%;
+}
+
+.testing__wrapper {
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.testing__wrapper > h2 {
+    padding-bottom: 20px;
+}
+
+.testing__wrapper > ul, .testing__wrapper > p{
+    padding-left: 5%;
+}
+
+.testing__wrapper > ul {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.user__feedbackWrapper {
+    text-align: left;
+}
+
+.user__feedbackWrapper > ul {
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-left: 5%;
+}
+
+.iterating__wrapper {
+    padding: 2.5% 22% 2.5% 22%;
+    background-color: #76849E;
+    color: #FFFFFF;
+}
+
+.iterating__title {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+.iterations__wrapper {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    grid-gap: 60px;
+}
+
+.iterations__left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+
+.before__afterGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.iterations__text {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    grid-gap: 60px;
+    padding-top: 40px;
+}
+
+.iterations__textLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.before__afterImgWrapper > img {
+    max-width: 100%;
+}
+
+
+
+.dimension__toggle > img {
+    max-height: 600px;
+}
+
+.before__after1 > p, .before__after2 > p, .dimension__toggleWrapper > p {
+    padding-top: 50px;
+}
+
+.hifi__wrapper {
+    padding: 8% 22% 6% 22%;
+}
+
+.hifi__grid {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    text-align: left;
+}
+
+.hifi__text {
+    padding-left: 20%;
+}
+
+.hifi__text > h1 {
+    padding-bottom: 20px;
+}
+
+.hifi__text > p {
+    max-width: 90%;
+}
+
+.hifi__logo {
+    padding-top: 70px;
+    padding-left: 30%;
+}
+
+.hifi__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 20px;
+}
+
+.makeRoom__conclusion {
+    padding: 4% 22% 7% 22%;
+    text-align: left;
+}
+
+.makeRoom__conclusion > h1 {
+   padding-bottom: 30px;
+}

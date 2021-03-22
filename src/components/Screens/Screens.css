@@ -1,0 +1,24 @@
+.screens__container {
+    padding: 2.5% 22% 2.5% 22%;
+    background-color: #76849E;
+    color: #FFFF;
+}
+
+.screens__container > h1{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.screens__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screens__wrapper > div {
+    margin: 10px
+}
+
+.screens__wrapper > div > img {
+    max-width: 100%;
+}

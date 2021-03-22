@@ -11,7 +11,7 @@ function Projects() {
     const scrollToTop = (event) => {
         let x = event.currentTarget.id
 
-        if (x === "makeRoom__link" || x === "street__link") {
+        if (x === "street__link") {
 
         } else {
             window.scrollTo(0, 0);
@@ -78,8 +78,8 @@ function Projects() {
                             Make Room Aims to reduce the time and effort needed to create or rearrange spaces through the use of a shape-building tool
                         </p>
                     </div>
-                    <Link to="#" className="caseStudy__link" id="makeRoom__link" onClick={scrollToTop}>
-                        <h3>Coming Soon</h3>
+                    <Link to="makeroom" className="caseStudy__link" id="makeRoom__link" onClick={scrollToTop}>
+                        <h3>View Case Study</h3>
                         <svg width="19" height="15" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5H0V7H12.17Z" fill="#898989"/>
                         </svg>
